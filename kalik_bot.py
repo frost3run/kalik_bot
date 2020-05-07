@@ -2,9 +2,9 @@ import telebot
 from telebot import apihelper, TeleBot
 import parser_data
 
-apihelper.proxy = {'proxy set'}
+apihelper.proxy = {''}
 
-bot: TeleBot = telebot.TeleBot('botTOKEN')
+bot: TeleBot = telebot.TeleBot('')
 
 
 @bot.message_handler(commands=['start'])
